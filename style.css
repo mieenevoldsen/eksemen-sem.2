@@ -87,6 +87,14 @@ background: #afebf9;
   color: rgb(57, 57, 57);
 }
 
+.gennemgang{
+  text-decoration: none;
+  color: black;
+}
+.gennemgang:hover{
+  color: rgb(57, 57, 57);
+}
+
 /*!!! speech bubble !!! */
 .speech-bubble{
   min-width: 20%;
@@ -120,7 +128,7 @@ background: #afebf9;
 }
 /* fremgangsmåde overskrift */
 .fremgang{
-font-size: x-large;
+font-size: xx-large;
 }
 
 /* Fade in */
