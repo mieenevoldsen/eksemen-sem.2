@@ -7,6 +7,15 @@
   width: 80px;
 }
 
+.nav-head{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-head:hover{
+  color: black;
+}
+
 /* video */
 .opstilling{
   width: 80%;
@@ -23,8 +32,8 @@ body{
   margin-top: 10%;
 }
 
-.btn-f{
-  margin-top: 6em;
+.btn{
+  font-size: x-large;
 }
 
 .forside-kids{
@@ -68,8 +77,17 @@ background: #afebf9;
   background: #afebf9;
   border-bottom: solid black 1px;
 }
-/*!!! speech bubble !!! */
 
+/* links */
+.pdf{
+  text-underline-offset: 5px;
+  color: black;
+}
+.pdf:hover{
+  color: rgb(57, 57, 57);
+}
+
+/*!!! speech bubble !!! */
 .speech-bubble{
   min-width: 20%;
   max-width: 30%;
@@ -89,6 +107,10 @@ background: #afebf9;
   border-right: 26px solid whitesmoke;
   border-bottom: 13px solid transparent;
   margin: 13px 0 0 -25px;
+}
+
+.intro{
+  display: none;
 }
 
 /* lydikon */
